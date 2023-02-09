@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ SPA Quote editor built with Hotwire (Turbo Drive, Turbo Frames and Turbo Streams)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ * Init DB: `bin/rails db:drop db:create db:migrate`
+ * Seed data: `bin/rails db:seed`
+ * Start the app: `bin/dev`
+ * Login with one of the users from `test/fixtures/users.yml`
